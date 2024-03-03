@@ -1,0 +1,2164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css"
+    />
+    <link rel="stylesheet" href="assets/css/bootstrap.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="https://use.typekit.net/kmk6yft.css" />
+
+    <link rel="stylesheet" href="assets/css/layout.css" />
+    <link
+      rel="stylesheet"
+      href="assets/css/layout-992.css"
+      media="(max-width:992px)"
+    />
+    <link
+      rel="stylesheet"
+      href="assets/css/layout-767.css"
+      media="(max-width:767px)"
+    />
+    <link rel="stylesheet" href="assets/css/product-details.css" />
+    <link rel="stylesheet" href="assets/css/all.css" />
+
+    <title>Produt Details</title>
+  </head>
+  <body>
+    <nav class="navbar bg-black p-0 m-0 top_nav">
+        <div class="container-fluid py-2 fixed-top bg-black">
+          <div
+            class="col-12 d-flex col-md-12 col-lg-2 flex-row-reverse flex-lg-row justify-content-between align-items-center"
+          >
+            <a
+              class="flex-grow-1 flex-lg-grow-0 align-self-md-start text-center d-none d-lg-block"
+              href="javascript:void(0);"
+            >
+              <img
+                src="assets/images/7md-logo-322@2x.png"
+                alt="Logo"
+                width="118"
+                height="68"
+                class="d-inline-block align-text-top"
+              />
+            </a>
+            <button
+              class="navbar-toggler text-light border-0 d-none d-lg-block"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#main-menu"
+              aria-controls="main-menu"
+              aria-label="Main Menu"
+            >
+              <i class="fa-solid fa-bars"></i>
+            </button>
+          </div>
+          <div class="col flex-grow-1 pt-2 pt-lg-0">
+            <div class="d-flex flex-md-row flex-column w-100">
+              <div
+                class="d-flex px-lg-4 col-md-6 col-12 px-2 flex-grow-1 justify-content-around align-items-center"
+              >
+                <button
+                  type="button"
+                  data-bs-toggle="offcanvas"
+                  data-bs-target="#main-menu"
+                  aria-controls="main-menu"
+                  aria-label="Main Menu"
+                  class="navbar-toggler text-light border-0 d-block d-lg-none"
+                >
+                  <i class="fa-solid fa-bars"></i>
+                </button>
+  
+                <div class="main_search_box">
+                  <div class="header-search">
+                    <form class="search-form">
+                      <div class="input-group search_input_container">
+                        <input
+                          type="text"
+                          name="query"
+                          autocomplete="off"
+                          placeholder="I am shopping for......."
+                          class="form-control search-input"
+                        />
+                        <select name="category" class="form-control form-select">
+                          <option value="">All Categories</option>
+                          <option value="mobile-phones">Mobile Phones</option>
+                          <option value="mobile-accessories">
+                            Mobile Accessories
+                          </option>
+                          <option value="cases-leather">
+                            Cases &amp; Phone Protection
+                          </option>
+                          <option value="chargers-cables-lv0yWIak">
+                            Chargers &amp; Cables
+                          </option>
+                          <option value="usb-car-chargers">
+                            USB Car Chargers
+                          </option>
+                        </select>
+                        <button type="submit" class="btn btn-primary px-4">
+                          <i id="search_icon" class="fa fa-search"></i>
+                        </button>
+                      </div>
+                    </form>
+                  </div>
+                  <!---->
+                </div>
+              </div>
+              <div
+                class="d-flex pt-2 pt-md-0 col header-icons justify-content-start justify-content-md-end align-items-center"
+              >
+                <div class="col-4">
+                  <div
+                    class="d-flex pt-2 pt-md-0 ustify-content-start align-items-center"
+                  >
+                    <div
+                      class="px-md-2 flex-md-grow-0 d-flex justify-content-center border-end border-white"
+                    >
+                      <div class="dropdown">
+                        <button
+                          class="btn btn-sm bg-transparent text-white dropdown-toggle"
+                          type="button"
+                          data-bs-toggle="dropdown"
+                          aria-expanded="false"
+                        >
+                          AED
+                        </button>
+                        <ul class="dropdown-menu">
+                          <li>
+                            <a class="dropdown-item" href="javascript:void(0);"
+                              >AED</a
+                            >
+                          </li>
+                          <li>
+                            <a class="dropdown-item" href="javascript:void(0);"
+                              >USD</a
+                            >
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div
+                      class="px-md-2 flex-md-grow-0 d-flex justify-content-center border-end border-white"
+                    >
+                      <a
+                        class="btn btn-sm bg-transparent text-white text-decoration-none"
+                        href="javascript:void(0);"
+                        >العربية</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="px-md-2 d-flex justify-content-center">
+                    <a href="https://www.7md.ae/en" class="d-block d-lg-none"
+                      ><img
+                        src="assets/images/7md-logo-322@2x.png"
+                        alt="Logo"
+                        class="img-fluid"
+                    /></a>
+                  </div>
+                </div>
+  
+                <div class="col-5">
+                  <div
+                    class="px-md-2 flex-grow-1 flex-md-grow-0 d-flex justify-content-center"
+                  >
+                    <div class="dropdown d-inline-block">
+                      <button
+                        class="btn btn-sm bg-transparent text-white dropdown-toggle"
+                        type="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        <i class="fa-regular fa-user fa-xl"></i>
+                        <!-- <img src="assets/images/PROFILE.png" width="36" height="36"/> -->
+                      </button>
+                      <ul class="dropdown-menu">
+                        <li>
+                          <a class="dropdown-item" href="javascript:void(0);"
+                            >My Profile</a
+                          >
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="javascript:void(0);"
+                            >My Orders</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            class="dropdown-item text-danger"
+                            href="javascript:void(0);"
+                            >Logout</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                    <a
+                      href="javascript:void(0);"
+                      class="btn btn-sm bg-transparent"
+                    >
+                      <i class="fa-light fa-heart fa-xl"></i
+                    ></a>
+                    <div class="dropdown d-inline-block">
+                      <button
+                        class="btn btn-sm bg-transparent text-white"
+                        type="button"
+                        data-bs-toggle="offcanvas"
+                        data-bs-target="#shopping-cart-offcanvas"
+                        aria-controls="shopping-cart-offcanvas"
+                      >
+                        <span class="icon position-relative">
+                          <i class="fa-regular fa-bag-shopping fa-xl"></i>
+                          <!-- <img src="assets/images/CART.png" width="36" height="36"/> -->
+                          <span class="badge_price bg-success">2</span>
+                        </span>
+                        <span class="arrow_price d-none d-xl-inline"
+                          >2000AED</span
+                        >
+                      </button>
+                      <div class="dropdown-menu cart-menu p-3"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="container-fluid d-flex flex-row-reverse flex-lg-row bg-primary py-2"
+        >
+          <div class="div header-menu d-none d-lg-flex" id="header-menu">
+            <div class="navbar-expand navbar-collapse">
+              <ul class="navbar-nav text-white">
+                <li class="nav-item flex-shrink-0">
+                  <a
+                    class="nav-link text-white active"
+                    aria-current="page"
+                    href="javascript:void(0);"
+                    >Electronics</a
+                  >
+                </li>
+                <li class="nav-item flex-shrink-0">
+                  <a class="nav-link text-white" href="javascript:void(0);"
+                    >Health & Personal Care</a
+                  >
+                </li>
+                <li class="nav-item flex-shrink-0">
+                  <a class="nav-link text-white" href="javascript:void(0);"
+                    >Home Improvements</a
+                  >
+                </li>
+                <li class="nav-item flex-shrink-0">
+                  <a class="nav-link text-white" href="javascript:void(0);"
+                    >Fashion</a
+                  >
+                </li>
+                <li class="nav-item flex-shrink-0">
+                  <a class="nav-link text-white" href="javascript:void(0);"
+                    >Mobile & Tablets</a
+                  >
+                </li>
+                <li class="nav-item flex-shrink-0">
+                  <a class="nav-link text-white" href="javascript:void(0);"
+                    >Outdoor & Fitness</a
+                  >
+                </li>
+                <li class="nav-item flex-shrink-0">
+                  <a class="nav-link text-white" href="javascript:void(0);"
+                    >Smart Watches & Band</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div
+            class="offers-header-btn-group flex-grow-0 d-flex justify-content-start justify-content-lg-end"
+          >
+            <a
+              href="javascript:void(0);"
+              class="btn-primary text-white border-white mx-2 py-2 btn"
+              >Used Products</a
+            >
+            <a
+              href="javascript:void(0);"
+              class="btn-light border-white mx-2 py-2 btn"
+            >
+              <i class="fa-sharp fa-light fa-badge-percent fa-xl"></i>
+              <!-- <img src="assets/images/offer-icon.svg" class="offer_btn_icon"> -->
+              <span class="offer_btn_text">Offer Deals</span>
+            </a>
+          </div>
+        </div>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="shopping-cart-offcanvas"
+          aria-labelledby="shopping-cart-offcanvas-label"
+        >
+          <div class="offcanvas-header border">
+            <h2
+              class="offcanvas-title text-center text-primary"
+              id="shopping-cart-offcanvas-label"
+            >
+              My Cart
+            </h2>
+            <button
+              type="button"
+              class="btn-close rounded-circle bg-primary"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body d-flex flex-column justify-content-between">
+            <div class="cart-content flex-grow-1">
+              <div class="product-card pb-1 border-bottom">
+                <div class="card-horizontal">
+                  <div class="card-img-container">
+                    <img
+                      src="assets/images/item-small.png"
+                      alt="alt image here"
+                      class="card-img-top"
+                    />
+                  </div>
+                  <div class="d-flex flex-column">
+                    <h5 class="card-title fw-light mb-1 mt-2">
+                      Multi-Functional Baby Bedwetting Alarm Reminder Device With
+                      Receiver Clip Transmitter Adult Care Training
+                    </h5>
+                    <div class="input-group-sm w-50 rounded-3 border input-group">
+                      <button type="button" class="btn-sm btn border btn-light">
+                        -
+                      </button>
+                      <input
+                        class="form-control text-center"
+                        name="item-quantity"
+                        value="2"
+                      />
+                      <button type="button" class="btn-sm btn border btn-light">
+                        +
+                      </button>
+                    </div>
+                    <div class="prices pt-1">
+                      <span class="price"> AED499</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="product-card pb-1 border-bottom">
+                <div class="card-horizontal">
+                  <div class="card-img-container">
+                    <img
+                      src="assets/images/item-small.png"
+                      alt="alt image here"
+                      class="card-img-top"
+                    />
+                  </div>
+                  <div class="d-flex flex-column">
+                    <h5 class="card-title fw-light mb-1 mt-2">
+                      Multi-Functional Baby Bedwetting Alarm Reminder Device With
+                      Receiver Clip Transmitter Adult Care Training
+                    </h5>
+                    <div class="input-group-sm w-50 rounded-3 border input-group">
+                      <button type="button" class="btn-sm btn border btn-light">
+                        -
+                      </button>
+                      <input
+                        class="form-control text-center"
+                        name="item-quantity"
+                        value="2"
+                      />
+                      <button type="button" class="btn-sm btn border btn-light">
+                        +
+                      </button>
+                    </div>
+                    <div class="prices pt-1">
+                      <span class="price"> AED499</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product-card pb-1 border-bottom">
+                <div class="card-horizontal">
+                  <div class="card-img-container">
+                    <img
+                      src="assets/images/item-small.png"
+                      alt="alt image here"
+                      class="card-img-top"
+                    />
+                  </div>
+                  <div class="d-flex flex-column">
+                    <h5 class="card-title fw-light mb-1 mt-2">
+                      Multi-Functional Baby Bedwetting Alarm Reminder Device With
+                      Receiver Clip Transmitter Adult Care Training
+                    </h5>
+                    <div class="input-group-sm w-50 rounded-3 border input-group">
+                      <button type="button" class="btn-sm btn border btn-light">
+                        -
+                      </button>
+                      <input
+                        class="form-control text-center"
+                        name="item-quantity"
+                        value="2"
+                      />
+                      <button type="button" class="btn-sm btn border btn-light">
+                        +
+                      </button>
+                    </div>
+                    <div class="prices pt-1">
+                      <span class="price"> AED499</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product-card pb-1 border-bottom">
+                <div class="card-horizontal">
+                  <div class="card-img-container">
+                    <img
+                      src="assets/images/item-small.png"
+                      alt="alt image here"
+                      class="card-img-top"
+                    />
+                  </div>
+                  <div class="d-flex flex-column">
+                    <h5 class="card-title fw-light mb-1 mt-2">
+                      Multi-Functional Baby Bedwetting Alarm Reminder Device With
+                      Receiver Clip Transmitter Adult Care Training
+                    </h5>
+                    <div class="input-group-sm w-50 rounded-3 border input-group">
+                      <button type="button" class="btn-sm btn border btn-light">
+                        -
+                      </button>
+                      <input
+                        class="form-control text-center"
+                        name="item-quantity"
+                        value="2"
+                      />
+                      <button type="button" class="btn-sm btn border btn-light">
+                        +
+                      </button>
+                    </div>
+                    <div class="prices pt-1">
+                      <span class="price"> AED499</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product-card pb-1 border-bottom">
+                <div class="card-horizontal">
+                  <div class="card-img-container">
+                    <img
+                      src="assets/images/item-small.png"
+                      alt="alt image here"
+                      class="card-img-top"
+                    />
+                  </div>
+                  <div class="d-flex flex-column">
+                    <h5 class="card-title fw-light mb-1 mt-2">
+                      Multi-Functional Baby Bedwetting Alarm Reminder Device With
+                      Receiver Clip Transmitter Adult Care Training
+                    </h5>
+                    <div class="input-group-sm w-50 rounded-3 border input-group">
+                      <button type="button" class="btn-sm btn border btn-light">
+                        -
+                      </button>
+                      <input
+                        class="form-control text-center"
+                        name="item-quantity"
+                        value="2"
+                      />
+                      <button type="button" class="btn-sm btn border btn-light">
+                        +
+                      </button>
+                    </div>
+                    <div class="prices pt-1">
+                      <span class="price"> AED499</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product-card pb-1 border-bottom">
+                <div class="card-horizontal">
+                  <div class="card-img-container">
+                    <img
+                      src="assets/images/item-small.png"
+                      alt="alt image here"
+                      class="card-img-top"
+                    />
+                  </div>
+                  <div class="d-flex flex-column">
+                    <h5 class="card-title fw-light mb-1 mt-2">
+                      Multi-Functional Baby Bedwetting Alarm Reminder Device With
+                      Receiver Clip Transmitter Adult Care Training
+                    </h5>
+                    <div class="input-group-sm w-50 rounded-3 border input-group">
+                      <button type="button" class="btn-sm btn border btn-light">
+                        -
+                      </button>
+                      <input
+                        class="form-control text-center"
+                        name="item-quantity"
+                        value="2"
+                      />
+                      <button type="button" class="btn-sm btn border btn-light">
+                        +
+                      </button>
+                    </div>
+                    <div class="prices pt-1">
+                      <span class="price"> AED499</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product-card pb-1 border-bottom">
+                <div class="card-horizontal">
+                  <div class="card-img-container">
+                    <img
+                      src="assets/images/item-small.png"
+                      alt="alt image here"
+                      class="card-img-top"
+                    />
+                  </div>
+                  <div class="d-flex flex-column">
+                    <h5 class="card-title fw-light mb-1 mt-2">
+                      Multi-Functional Baby Bedwetting Alarm Reminder Device With
+                      Receiver Clip Transmitter Adult Care Training
+                    </h5>
+                    <div class="input-group-sm w-50 rounded-3 border input-group">
+                      <button type="button" class="btn-sm btn border btn-light">
+                        -
+                      </button>
+                      <input
+                        class="form-control text-center"
+                        name="item-quantity"
+                        value="2"
+                      />
+                      <button type="button" class="btn-sm btn border btn-light">
+                        +
+                      </button>
+                    </div>
+                    <div class="prices pt-1">
+                      <span class="price"> AED499</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product-card pb-1 border-bottom">
+                <div class="card-horizontal">
+                  <div class="card-img-container">
+                    <img
+                      src="assets/images/item-small.png"
+                      alt="alt image here"
+                      class="card-img-top"
+                    />
+                  </div>
+                  <div class="d-flex flex-column">
+                    <h5 class="card-title fw-light mb-1 mt-2">
+                      Multi-Functional Baby Bedwetting Alarm Reminder Device With
+                      Receiver Clip Transmitter Adult Care Training
+                    </h5>
+                    <div class="input-group-sm w-50 rounded-3 border input-group">
+                      <button type="button" class="btn-sm btn border btn-light">
+                        -
+                      </button>
+                      <input
+                        class="form-control text-center"
+                        name="item-quantity"
+                        value="2"
+                      />
+                      <button type="button" class="btn-sm btn border btn-light">
+                        +
+                      </button>
+                    </div>
+                    <div class="prices pt-1">
+                      <span class="price"> AED499</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="d-flex flex-column border border-light justify-content-between"
+            >
+              <div class="total d-flex p-2 justify-content-between">
+                <div class="fw-bold">Total:</div>
+                <div class="price">AED12000</div>
+              </div>
+              <div class="d-flex justify-content-between p-2">
+                <button class="btn btn-success btn-lg px-3">Check Out</button>
+                <button class="btn btn-primary btn-lg">Continue Shopping</button>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <div
+          class="offcanvas offcanvas-start"
+          tabindex="-1"
+          id="main-menu"
+          aria-labelledby="main-menu-label"
+        >
+          <div class="offcanvas-header bg-black">
+            <img src="assets/images/7md-logo.png" />
+            <button
+              type="button"
+              class="btn-close bg-primary rounded-circle"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body d-flex flex-column justify-content-between">
+            <ul class="list-group product-cat">
+              <li class="list-group-item">
+                <a class="active">
+                  <span class="img">
+                    <i class="fa-regular fa-blender-phone fa-xl"></i
+                  ></span>
+                  <span class="nav_selected_button_text">Home Appliances</span>
+                </a>
+              </li>
+              <li class="list-group-item">
+                <a href="javascript:void(0);">
+                  <span class="img"><i class="fa-regular fa-tv fa-xl"></i></span>
+                  <span class="nav_button_text">Electronics</span>
+                </a>
+              </li>
+              <li class="list-group-item">
+                <a href="javascript:void(0);">
+                  <span class="img"
+                    ><i class="fa-regular fa-shirt fa-xl"></i
+                  ></span>
+                  <span class="nav_button_text">Fashion</span>
+                </a>
+              </li>
+              <li class="list-group-item">
+                <a href="javascript:void(0);">
+                  <span class="img"
+                    ><i class="fa-regular fa-notes-medical fa-xl"></i
+                  ></span>
+                  <span class="nav_button_text">Health &amp; personal care</span>
+                </a>
+              </li>
+              <li class="list-group-item">
+                <a href="javascript:void(0);">
+                  <span class="img"
+                    ><i class="fa-regular fa-projector fa-xl"></i
+                  ></span>
+                  <span class="nav_button_text">Projectors</span>
+                </a>
+              </li>
+              <li class="list-group-item">
+                <a href="javascript:void(0);">
+                  <span class="img"
+                    ><i class="fa-regular fa-child fa-xl"></i
+                  ></span>
+                  <span class="nav_button_text">Kids</span>
+                </a>
+              </li>
+              <li class="list-group-item">
+                <a href="javascript:void(0);">
+                  <span class="img"
+                    ><i class="fa-regular fa-mobile fa-xl"></i
+                  ></span>
+                  <span class="nav_button_text">Cell Phones</span>
+                </a>
+              </li>
+              <li class="list-group-item">
+                <a href="javascript:void(0);">
+                  <span class="img"
+                    ><i class="fa-regular fa-medal fa-xl"></i
+                  ></span>
+                  <span class="nav_button_text">Sports</span>
+                </a>
+              </li>
+              <li class="list-group-item">
+                <a href="javascript:void(0);">
+                  <span class="img"
+                    ><i class="fa-regular fa-game-console-handheld fa-xl"></i
+                  ></span>
+                  <span class="nav_button_text">Game consoles</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <section class="container-fluid bg-white py-2 breadcrumb-section mb-4">
+      <div class="row">
+        <div class="col-12">
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb p-2 mb-0">
+              <li class="breadcrumb-item text-capitalize">home</li>
+              <li class="breadcrumb-item active" aria-current="page">
+                <a href="#" class="text-decoration-none text-capitalize"
+                  >shop</a
+                >
+              </li>
+              <li class="breadcrumb-item active" aria-current="page">
+                <a href="#" class="text-decoration-none text-capitalize"
+                  >Wi-Fi SMART IR SMART HOME GADGETS CONTROLLER</a
+                >
+              </li>
+            </ol>
+          </nav>
+        </div>
+      </div>
+    </section>
+    <section class="container-fluid px-lg-5 main_container">
+      <div class="row pb-4">
+        <div class="col-xl-4 col-lg-6 col-md-12 col-12">
+          <div class="row justify-content-between align-items-center pt-4">
+            <div class="col-md-10 col-12 d-flex order-md-1 height-300px">
+              <div
+                class="flex-grow-1 card d-flex align-items-center justify-content-center"
+              >
+                <img
+                  src="assets/images/best-seller@2x.png"
+                  class="card-img product-img"
+                />
+              </div>
+            </div>
+            <div class="col-md-2 col-12 order-md-0">
+              <div class="product-thumps flex-grow-0">
+                <div class="slide p-1">
+                  <img
+                    src="assets/images/product.png"
+                    class="w-100 pointer-event"
+                  />
+                </div>
+                <div class="slide p-1">
+                  <img
+                    src="assets/images/product.png"
+                    class="w-100 pointer-event"
+                  />
+                </div>
+                <div class="slide p-1">
+                  <img
+                    src="assets/images/product.png"
+                    class="w-100 pointer-event"
+                  />
+                </div>
+                <div class="slide p-1">
+                  <img
+                    src="assets/images/product.png"
+                    class="w-100 pointer-event"
+                  />
+                </div>
+                <div class="slide p-1">
+                  <img
+                    src="assets/images/product.png"
+                    class="w-100 pointer-event"
+                  />
+                </div>
+                <div class="slide p-1">
+                  <img
+                    src="assets/images/product.png"
+                    class="w-100 pointer-event"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-12 col-lg-6 col-xl-7">
+          <div class="card product-details-card bg-transparent shadow-none">
+            <div class="card-body">
+              <h1 class="card-title text-capitalize">
+                wi-fi smart ir smart home gadgets controller
+              </h1>
+              <div class="small-ratings justify-content-center mb-2">
+                <i class="fa fa-star rating-color"></i>
+                <i class="fa fa-star rating-color"></i>
+                <i class="fa fa-star rating-color"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+              <div class="h4 text-success mb-2">In Stock</div>
+              <div class="d-flex align-items-center mb-2 product-sku">
+                <span class="h4 text-capitalize pe-2">sku: </span>
+                <span class="h4 text-primary"> 8598 </span>
+              </div>
+              <div class="d-flex align-items-center mb-2 product-meta">
+                <span class="h4 text-capitalize pe-2"> Categories:</span>
+                <span class="h4 text-primary">New Arrivals, Best Selling</span>
+              </div>
+              <hr />
+              <div
+                class="d-flex flex-column flex-md-row justify-content-between align-items-center product-variation"
+              >
+                <div
+                  class="d-flex justify-content-between align-items-center var-opt col-12 col-md-6 col-lg-5 mb-2"
+                >
+                  <span class="fw-bold">Color:</span>
+                  <div
+                    class="dropdown w-100 w-sm-75 d-flex align-items-center justify-content-end"
+                  >
+                    <select class="form-select w-75" aria-label="Black">
+                      <option selected>Select Color</option>
+                      <option value="1">Black</option>
+                      <option value="2">Red</option>
+                      <option value="3">Blue</option>
+                    </select>
+                  </div>
+                </div>
+                <div
+                  class="d-flex justify-content-between align-items-center var-opt col-12 col-md-6 col-lg-5 mb-2"
+                >
+                  <span class="fw-bold ms-0 ms-md-2">Size:</span>
+                  <div
+                    class="dropdown w-100 w-sm-75 d-flex align-items-center justify-content-end"
+                  >
+                    <select class="form-select w-75" aria-label="Large">
+                      <option selected>Select Size</option>
+                      <option value="1">Large</option>
+                      <option value="2">Medium</option>
+                      <option value="3">Small</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <hr />
+              <div
+                class="d-flex flex-column flex-md-row justify-content-between align-items-center quantity"
+              >
+                <div
+                  class="d-flex justify-content-between align-items-center var-opt col-12 col-md-12 col-lg-5 mb-2"
+                >
+                  <span class="fw-bold me-2">Quantity:</span>
+                  <div class="input-group w-auto quantity-input">
+                    <span class="input-group-text btn btn-dark rounded-3"
+                      ><a
+                        href="#"
+                        class="text-white quantity__minus text-decoration-none"
+                        >-</a
+                      ></span
+                    >
+                    <input
+                      type="text"
+                      class="form-control text-center"
+                      value="1"
+                    />
+                    <span class="input-group-text btn btn-dark rounded-3"
+                      ><a
+                        href="#"
+                        class="text-white text-decoration-none quantity__plus"
+                        >+</a
+                      ></span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-body p-3 pb-1">
+              <div class="d-flex justify-content-center product-cart">
+                <div
+                  class="d-flex flex-column align-items-center justify-content-center flex-grow-1"
+                >
+                  <h2 class="card-title fw-bold">AED499</h2>
+                  <span>All prices include VAT</span>
+                </div>
+                <div
+                  class="d-flex align-items-center justify-content-evenly flex-grow-1"
+                >
+                  <a
+                    class="btn btn-lg bg-primary d-flex align-items-center justify-content-between text-uppercase text-white fw-light"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="19.628"
+                      height="19.473"
+                      viewBox="0 0 19.628 19.473"
+                      class="me-3"
+                    >
+                      <path
+                        id="icon"
+                        d="M1189.578,905.578a1.947,1.947,0,1,0,1.947,1.948A1.945,1.945,0,0,0,1189.578,905.578Zm-11.674,1.948a1.943,1.943,0,1,0,1.937-1.948A1.945,1.945,0,0,0,1177.9,907.526Zm12.949-13.631h-11.829l2.18,4.605.126.263h6.836Zm-12.754-1.947h15.374l.155.935-3.759,6.825a1.936,1.936,0,0,1-1.7,1h-7.254l-.876,1.587-.029.117a.248.248,0,0,0,.243.243h11.275V904.6h-11.684a1.952,1.952,0,0,1-1.946-1.947,1.87,1.87,0,0,1,.243-.935l1.315-2.385-3.505-7.39H1174V890h3.183Z"
+                        transform="translate(-1174 -890)"
+                        fill="#fff"
+                      ></path>
+                    </svg>
+                    Add to cart
+                  </a>
+                  <a
+                    href="#"
+                    class="btn btn-lg bg-transparent border border-dark rounded-3"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="23"
+                      height="23"
+                      viewBox="0 0 26.96 25.298"
+                    >
+                      <path
+                        id="Icon_ionic-ios-heart-empty"
+                        data-name="Icon ionic-ios-heart-empty"
+                        d="M22.638,3.938h-.063a7.262,7.262,0,0,0-6.02,3.2,7.262,7.262,0,0,0-6.02-3.2h-.063a7.063,7.063,0,0,0-7.1,6.958A14.722,14.722,0,0,0,6.4,19.067a52.507,52.507,0,0,0,10.151,9.5,52.507,52.507,0,0,0,10.151-9.5A14.722,14.722,0,0,0,29.735,10.9,7.063,7.063,0,0,0,22.638,3.938Zm2.636,14.114a47.991,47.991,0,0,1-8.719,8.35,48.061,48.061,0,0,1-8.719-8.356A13.048,13.048,0,0,1,5.149,10.9,5.136,5.136,0,0,1,6.708,7.213a5.429,5.429,0,0,1,3.777-1.546h.057a5.469,5.469,0,0,1,4.531,2.42,1.809,1.809,0,0,0,2.978,0,5.531,5.531,0,0,1,1.926-1.755,5.433,5.433,0,0,1,2.6-.665h.057a5.44,5.44,0,0,1,3.777,1.546A5.121,5.121,0,0,1,27.973,10.9,13.214,13.214,0,0,1,25.274,18.051Z"
+                        transform="translate(-3.075 -3.638)"
+                        fill="#251902"
+                        stroke="#251902"
+                        stroke-width="0.6"
+                      ></path>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+              <div
+                class="card-footer d-flex justify-content-center align-items-center flex-wrap bg-transparent mt-3"
+              >
+                <span class="text-muted flex-grow-0"
+                  >or 3 cost-free payments of AED 316.67 with</span
+                >
+
+                <img src="assets/images/download.png" class="mx-2 img-fluid" />
+                <span
+                  class="text-gray text-decoration-underline text-muted flex-grow-0"
+                  >Learn more</span
+                >
+              </div>
+            </div>
+          </div>
+          <div class="d-flex align-items-center pt-4">
+            <span>Share:</span>
+            <div class="d-flex align-items-center social-links">
+              <i class="fa fa-youtube text-dark fa-lg mx-2"></i>
+              <i class="fa fa-facebook text-dark fa-lg mx-2"></i>
+              <i class="fa fa-instagram text-dark fa-lg mx-2"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container-fluid px-lg-5 main_container">
+      <div class="row py-4">
+        <div class="col-12">
+          <div class="tabs product-tabs">
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+              <li class="nav-item nav-res" role="presentation">
+                <button
+                  class="nav-link active p-3 px-5"
+                  id="home-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#home"
+                  type="button"
+                  role="tab"
+                  aria-controls="home"
+                  aria-selected="false"
+                >
+                  Description
+                </button>
+              </li>
+              <li class="nav-item nav-res" role="presentation">
+                <button
+                  class="nav-link nav-res p-3 px-5"
+                  id="profile-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#profile"
+                  type="button"
+                  role="tab"
+                  aria-controls="profile"
+                  aria-selected="false"
+                >
+                  Additional information
+                </button>
+              </li>
+              <li class="nav-item nav-res" role="presentation">
+                <button
+                  class="nav-link p-3 px-5"
+                  id="contact-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#contact"
+                  type="button"
+                  role="tab"
+                  aria-controls="contact"
+                  aria-selected="true"
+                >
+                  Reviews
+                </button>
+              </li>
+            </ul>
+            <div class="tab-content bg-white p-4" id="myTabContent">
+              <div
+                class="tab-pane fade tab-content p-4"
+                id="home"
+                role="tabpanel"
+                aria-labelledby="home-tab"
+              >
+              <table>
+                <tr>
+                    <td colspan="2">Seller assumes all responsibility for this listing.</td>
+                </tr>
+                <tr>
+                    <td>eBay item number:</td>
+                    <td>185997734023</td>
+                </tr>
+                <tr>
+                    <td>Last updated:</td>
+                    <td>Nov 15, 2023 20:06:01 PST</td>
+                </tr>
+                <tr>
+                    <th colspan="2">Item specifics</th>
+                </tr>
+                <tr>
+                    <td>Condition</td>
+                    <td>New: A brand-new, unused, unopened, undamaged item in its original packaging</td>
+                </tr>
+                <!-- Add more rows for each specific -->
+                <tr>
+                    <td>Processor</td>
+                    <td>Octa Core</td>
+                </tr>
+                <tr>
+                    <td>Screen Size</td>
+                    <td>6.7 in</td>
+                </tr>
+                <!-- Continue adding rows for the rest of the specifics -->
+            </table>
+            <table>
+              <tr>
+                  <td colspan="2">Seller assumes all responsibility for this listing.</td>
+              </tr>
+              <tr>
+                  <td>eBay item number:</td>
+                  <td>185997734023</td>
+              </tr>
+              <tr>
+                  <td>Last updated:</td>
+                  <td>Nov 15, 2023 20:06:01 PST</td>
+              </tr>
+              <tr>
+                  <th colspan="2">Item specifics</th>
+              </tr>
+              <tr>
+                  <td>Condition</td>
+                  <td>New: A brand-new, unused, unopened, undamaged item in its original packaging</td>
+              </tr>
+              <!-- Add more rows for each specific -->
+              <tr>
+                  <td>Processor</td>
+                  <td>Octa Core</td>
+              </tr>
+              <tr>
+                  <td>Screen Size</td>
+                  <td>6.7 in</td>
+              </tr>
+              <!-- Continue adding rows for the rest of the specifics -->
+          </table>
+              </div>
+              <div
+                class="tab-pane fade tab-content p-4"
+                id="profile"
+                role="tabpanel"
+                aria-labelledby="profile-tab"
+              >
+              <div class="review-widget">
+                <h3>Customer Reviews</h3>
+                <div class="review">
+                    <p class="review-title">Excellent Product</p>
+                    <div class="review-rating">★★★★☆</div>
+                    <p class="review-text">I recently purchased this product and it has exceeded my expectations. Highly recommend!</p>
+                    <p class="review-author">- John Doe</p>
+                </div>
+                <!-- Add more review divs as needed -->
+            </div>
+            
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container-fluid px-lg-4 main_container">
+      <div class="row pb-4">
+        <div
+          class="col-sm-12 pt-md-0 pt-3 justify-content-center flex-grow-1 align-items-center col-md-12 col-lg-12"
+        >
+          <div
+            class="col-sm-12 col-md-12 col-lg-12 d-flex justify-content-start align-items-center pb-2"
+          >
+            <h2 class="section-title fw-bold">
+              <img src="assets/images/viewd.png" class="title-image" />Recently
+              Viewed
+            </h2>
+          </div>
+          <div class="slider w-100">
+            <div class="slide" style="">
+              <div class="col px-2 mb-1">
+                <div class="card product-card">
+                  <div class="fav-label">
+                    <a
+                      href="javascript:void(0);"
+                      class="btn btn-light p-2 m-0 rounded-circle"
+                    >
+                      <img
+                        src="assets/images/heart@2x.png"
+                        width="18"
+                        alt="menu"
+                        class="w-auto d-inline-block"
+                      />
+                    </a>
+                  </div>
+                  <div class="offer-label">50%</div>
+                  <img
+                    src="assets/images/lap.png"
+                    alt="menu"
+                    class="card-img-top p-3"
+                  />
+                  <div class="card-body p-lg-4 text-center">
+                    <div class="small-ratings justify-content-center">
+                      <i class="fa fa-star rating-color"></i>
+                      <i class="fa fa-star rating-color"></i>
+                      <i class="fa fa-star rating-color"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                    </div>
+                    <h5 class="card-title">
+                      Electric Multi-Functional Tea &amp; Coffee Pot
+                    </h5>
+                    <div class="prices">
+                      <span class="price"> AED499</span>
+                      <span class="price-old">AED600</span>
+                    </div>
+                    <button
+                      class="btn btn-light flex-grow-1 bg-white text-primary rounded-0 border-primary"
+                    >
+                      <img
+                        src="assets/images/icon.svg"
+                        class="w-auto d-inline-block"
+                        alt="item_button_icon"
+                      />
+                      <span class="item_button_text">Add To Cart</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="slide" style="">
+              <div class="col px-2 mb-1">
+                <div class="card product-card">
+                  <div class="fav-label">
+                    <a
+                      href="javascript:void(0);"
+                      class="btn btn-light p-2 m-0 rounded-circle"
+                    >
+                      <img
+                        src="assets/images/heart@2x.png"
+                        width="18"
+                        alt="menu"
+                        class="w-auto d-inline-block"
+                      />
+                    </a>
+                  </div>
+                  <div class="offer-label">50%</div>
+                  <img
+                    src="assets/images/lap.png"
+                    alt="menu"
+                    class="card-img-top p-3"
+                  />
+                  <div class="card-body p-lg-4 text-center">
+                    <div class="small-ratings justify-content-center">
+                      <i class="fa fa-star rating-color"></i>
+                      <i class="fa fa-star rating-color"></i>
+                      <i class="fa fa-star rating-color"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                    </div>
+                    <h5 class="card-title">
+                      Electric Multi-Functional Tea &amp; Coffee Pot
+                    </h5>
+                    <div class="prices">
+                      <span class="price"> AED499</span>
+                      <span class="price-old">AED600</span>
+                    </div>
+                    <button
+                      class="btn btn-light flex-grow-1 bg-white text-primary rounded-0 border-primary"
+                    >
+                      <img
+                        src="assets/images/icon.svg"
+                        class="w-auto d-inline-block"
+                        alt="item_button_icon"
+                      />
+                      <span class="item_button_text">Add To Cart</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="slide" style="">
+              <div class="col px-2 mb-1">
+                <div class="card product-card">
+                  <div class="fav-label">
+                    <a
+                      href="javascript:void(0);"
+                      class="btn btn-light p-2 m-0 rounded-circle"
+                    >
+                      <img
+                        src="assets/images/heart@2x.png"
+                        width="18"
+                        alt="menu"
+                        class="w-auto d-inline-block"
+                      />
+                    </a>
+                  </div>
+                  <div class="offer-label">50%</div>
+                  <img
+                    src="assets/images/lap.png"
+                    alt="menu"
+                    class="card-img-top p-3"
+                  />
+                  <div class="card-body p-lg-4 text-center">
+                    <div class="small-ratings justify-content-center">
+                      <i class="fa fa-star rating-color"></i>
+                      <i class="fa fa-star rating-color"></i>
+                      <i class="fa fa-star rating-color"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                    </div>
+                    <h5 class="card-title">
+                      Electric Multi-Functional Tea &amp; Coffee Pot
+                    </h5>
+                    <div class="prices">
+                      <span class="price"> AED499</span>
+                      <span class="price-old">AED600</span>
+                    </div>
+                    <button
+                      class="btn btn-light flex-grow-1 bg-white text-primary rounded-0 border-primary"
+                    >
+                      <img
+                        src="assets/images/icon.svg"
+                        class="w-auto d-inline-block"
+                        alt="item_button_icon"
+                      />
+                      <span class="item_button_text">Add To Cart</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="slide" style="">
+              <div class="col px-2 mb-1">
+                <div class="card product-card">
+                  <div class="fav-label">
+                    <a
+                      href="javascript:void(0);"
+                      class="btn btn-light p-2 m-0 rounded-circle"
+                    >
+                      <img
+                        src="assets/images/heart@2x.png"
+                        width="18"
+                        alt="menu"
+                        class="w-auto d-inline-block"
+                      />
+                    </a>
+                  </div>
+                  <div class="offer-label">50%</div>
+                  <img
+                    src="assets/images/lap.png"
+                    alt="menu"
+                    class="card-img-top p-3"
+                  />
+                  <div class="card-body p-lg-4 text-center">
+                    <div class="small-ratings justify-content-center">
+                      <i class="fa fa-star rating-color"></i>
+                      <i class="fa fa-star rating-color"></i>
+                      <i class="fa fa-star rating-color"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                    </div>
+                    <h5 class="card-title">
+                      Electric Multi-Functional Tea &amp; Coffee Pot
+                    </h5>
+                    <div class="prices">
+                      <span class="price"> AED499</span>
+                      <span class="price-old">AED600</span>
+                    </div>
+                    <button
+                      class="btn btn-light flex-grow-1 bg-white text-primary rounded-0 border-primary"
+                    >
+                      <img
+                        src="assets/images/icon.svg"
+                        class="w-auto d-inline-block"
+                        alt="item_button_icon"
+                      />
+                      <span class="item_button_text">Add To Cart</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="slide" style="">
+              <div class="col px-2 mb-1">
+                <div class="card product-card">
+                  <div class="fav-label">
+                    <a
+                      href="javascript:void(0);"
+                      class="btn btn-light p-2 m-0 rounded-circle"
+                    >
+                      <img
+                        src="assets/images/heart@2x.png"
+                        width="18"
+                        alt="menu"
+                        class="w-auto d-inline-block"
+                      />
+                    </a>
+                  </div>
+                  <div class="offer-label">50%</div>
+                  <img
+                    src="assets/images/lap.png"
+                    alt="menu"
+                    class="card-img-top p-3"
+                  />
+                  <div class="card-body p-lg-4 text-center">
+                    <div class="small-ratings justify-content-center">
+                      <i class="fa fa-star rating-color"></i>
+                      <i class="fa fa-star rating-color"></i>
+                      <i class="fa fa-star rating-color"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                    </div>
+                    <h5 class="card-title">
+                      Electric Multi-Functional Tea &amp; Coffee Pot
+                    </h5>
+                    <div class="prices">
+                      <span class="price"> AED499</span>
+                      <span class="price-old">AED600</span>
+                    </div>
+                    <button
+                      class="btn btn-light flex-grow-1 bg-white text-primary rounded-0 border-primary"
+                    >
+                      <img
+                        src="assets/images/icon.svg"
+                        class="w-auto d-inline-block"
+                        alt="item_button_icon"
+                      />
+                      <span class="item_button_text">Add To Cart</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="slide" style="">
+              <div class="col px-2 mb-1">
+                <div class="card product-card">
+                  <div class="fav-label">
+                    <a
+                      href="javascript:void(0);"
+                      class="btn btn-light p-2 m-0 rounded-circle"
+                    >
+                      <img
+                        src="assets/images/heart@2x.png"
+                        width="18"
+                        alt="menu"
+                        class="w-auto d-inline-block"
+                      />
+                    </a>
+                  </div>
+                  <div class="offer-label">50%</div>
+                  <img
+                    src="assets/images/lap.png"
+                    alt="menu"
+                    class="card-img-top p-3"
+                  />
+                  <div class="card-body p-lg-4 text-center">
+                    <div class="small-ratings justify-content-center">
+                      <i class="fa fa-star rating-color"></i>
+                      <i class="fa fa-star rating-color"></i>
+                      <i class="fa fa-star rating-color"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                    </div>
+                    <h5 class="card-title">
+                      Electric Multi-Functional Tea &amp; Coffee Pot
+                    </h5>
+                    <div class="prices">
+                      <span class="price"> AED499</span>
+                      <span class="price-old">AED600</span>
+                    </div>
+                    <button
+                      class="btn btn-light flex-grow-1 bg-white text-primary rounded-0 border-primary"
+                    >
+                      <img
+                        src="assets/images/icon.svg"
+                        class="w-auto d-inline-block"
+                        alt="item_button_icon"
+                      />
+                      <span class="item_button_text">Add To Cart</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="slide" style="">
+              <div class="col px-2 mb-1">
+                <div class="card product-card">
+                  <div class="fav-label">
+                    <a
+                      href="javascript:void(0);"
+                      class="btn btn-light p-2 m-0 rounded-circle"
+                    >
+                      <img
+                        src="assets/images/heart@2x.png"
+                        width="18"
+                        alt="menu"
+                        class="w-auto d-inline-block"
+                      />
+                    </a>
+                  </div>
+                  <div class="offer-label">50%</div>
+                  <img
+                    src="assets/images/lap.png"
+                    alt="menu"
+                    class="card-img-top p-3"
+                  />
+                  <div class="card-body p-lg-4 text-center">
+                    <div class="small-ratings justify-content-center">
+                      <i class="fa fa-star rating-color"></i>
+                      <i class="fa fa-star rating-color"></i>
+                      <i class="fa fa-star rating-color"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                    </div>
+                    <h5 class="card-title">
+                      Electric Multi-Functional Tea &amp; Coffee Pot
+                    </h5>
+                    <div class="prices">
+                      <span class="price"> AED499</span>
+                      <span class="price-old">AED600</span>
+                    </div>
+                    <button
+                      class="btn btn-light flex-grow-1 bg-white text-primary rounded-0 border-primary"
+                    >
+                      <img
+                        src="assets/images/icon.svg"
+                        class="w-auto d-inline-block"
+                        alt="item_button_icon"
+                      />
+                      <span class="item_button_text">Add To Cart</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container-fluid px-lg-4 main_container">
+      <div class="row pb-4">
+        <div
+          class="col-sm-12 pt-md-0 pt-3 justify-content-center flex-grow-1 align-items-center col-md-12 col-lg-12"
+        >
+          <div
+            class="col-sm-12 col-md-12 col-lg-12 d-flex justify-content-start align-items-center pb-2"
+          >
+            <h2 class="section-title fw-bold">
+              <img
+                src="assets/images/related.png"
+                class="title-image"
+              />Recently Viewed
+            </h2>
+          </div>
+          <div class="slider w-100">
+            <div class="slide" style="">
+              <div class="col px-2 mb-1">
+                <div class="card product-card">
+                  <div class="fav-label">
+                    <a
+                      href="javascript:void(0);"
+                      class="btn btn-light p-2 m-0 rounded-circle"
+                    >
+                      <img
+                        src="assets/images/heart@2x.png"
+                        width="18"
+                        alt="menu"
+                        class="w-auto d-inline-block"
+                      />
+                    </a>
+                  </div>
+                  <div class="offer-label">50%</div>
+                  <img
+                    src="assets/images/lap.png"
+                    alt="menu"
+                    class="card-img-top p-3"
+                  />
+                  <div class="card-body p-lg-4 text-center">
+                    <div class="small-ratings justify-content-center">
+                      <i class="fa fa-star rating-color"></i>
+                      <i class="fa fa-star rating-color"></i>
+                      <i class="fa fa-star rating-color"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                    </div>
+                    <h5 class="card-title">
+                      Electric Multi-Functional Tea &amp; Coffee Pot
+                    </h5>
+                    <div class="prices">
+                      <span class="price"> AED499</span>
+                      <span class="price-old">AED600</span>
+                    </div>
+                    <button
+                      class="btn btn-light flex-grow-1 bg-white text-primary rounded-0 border-primary"
+                    >
+                      <img
+                        src="assets/images/icon.svg"
+                        class="w-auto d-inline-block"
+                        alt="item_button_icon"
+                      />
+                      <span class="item_button_text">Add To Cart</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="slide" style="">
+              <div class="col px-2 mb-1">
+                <div class="card product-card">
+                  <div class="fav-label">
+                    <a
+                      href="javascript:void(0);"
+                      class="btn btn-light p-2 m-0 rounded-circle"
+                    >
+                      <img
+                        src="assets/images/heart@2x.png"
+                        width="18"
+                        alt="menu"
+                        class="w-auto d-inline-block"
+                      />
+                    </a>
+                  </div>
+                  <div class="offer-label">50%</div>
+                  <img
+                    src="assets/images/lap.png"
+                    alt="menu"
+                    class="card-img-top p-3"
+                  />
+                  <div class="card-body p-lg-4 text-center">
+                    <div class="small-ratings justify-content-center">
+                      <i class="fa fa-star rating-color"></i>
+                      <i class="fa fa-star rating-color"></i>
+                      <i class="fa fa-star rating-color"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                    </div>
+                    <h5 class="card-title">
+                      Electric Multi-Functional Tea &amp; Coffee Pot
+                    </h5>
+                    <div class="prices">
+                      <span class="price"> AED499</span>
+                      <span class="price-old">AED600</span>
+                    </div>
+                    <button
+                      class="btn btn-light flex-grow-1 bg-white text-primary rounded-0 border-primary"
+                    >
+                      <img
+                        src="assets/images/icon.svg"
+                        class="w-auto d-inline-block"
+                        alt="item_button_icon"
+                      />
+                      <span class="item_button_text">Add To Cart</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="slide" style="">
+              <div class="col px-2 mb-1">
+                <div class="card product-card">
+                  <div class="fav-label">
+                    <a
+                      href="javascript:void(0);"
+                      class="btn btn-light p-2 m-0 rounded-circle"
+                    >
+                      <img
+                        src="assets/images/heart@2x.png"
+                        width="18"
+                        alt="menu"
+                        class="w-auto d-inline-block"
+                      />
+                    </a>
+                  </div>
+                  <div class="offer-label">50%</div>
+                  <img
+                    src="assets/images/lap.png"
+                    alt="menu"
+                    class="card-img-top p-3"
+                  />
+                  <div class="card-body p-lg-4 text-center">
+                    <div class="small-ratings justify-content-center">
+                      <i class="fa fa-star rating-color"></i>
+                      <i class="fa fa-star rating-color"></i>
+                      <i class="fa fa-star rating-color"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                    </div>
+                    <h5 class="card-title">
+                      Electric Multi-Functional Tea &amp; Coffee Pot
+                    </h5>
+                    <div class="prices">
+                      <span class="price"> AED499</span>
+                      <span class="price-old">AED600</span>
+                    </div>
+                    <button
+                      class="btn btn-light flex-grow-1 bg-white text-primary rounded-0 border-primary"
+                    >
+                      <img
+                        src="assets/images/icon.svg"
+                        class="w-auto d-inline-block"
+                        alt="item_button_icon"
+                      />
+                      <span class="item_button_text">Add To Cart</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="slide" style="">
+              <div class="col px-2 mb-1">
+                <div class="card product-card">
+                  <div class="fav-label">
+                    <a
+                      href="javascript:void(0);"
+                      class="btn btn-light p-2 m-0 rounded-circle"
+                    >
+                      <img
+                        src="assets/images/heart@2x.png"
+                        width="18"
+                        alt="menu"
+                        class="w-auto d-inline-block"
+                      />
+                    </a>
+                  </div>
+                  <div class="offer-label">50%</div>
+                  <img
+                    src="assets/images/lap.png"
+                    alt="menu"
+                    class="card-img-top p-3"
+                  />
+                  <div class="card-body p-lg-4 text-center">
+                    <div class="small-ratings justify-content-center">
+                      <i class="fa fa-star rating-color"></i>
+                      <i class="fa fa-star rating-color"></i>
+                      <i class="fa fa-star rating-color"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                    </div>
+                    <h5 class="card-title">
+                      Electric Multi-Functional Tea &amp; Coffee Pot
+                    </h5>
+                    <div class="prices">
+                      <span class="price"> AED499</span>
+                      <span class="price-old">AED600</span>
+                    </div>
+                    <button
+                      class="btn btn-light flex-grow-1 bg-white text-primary rounded-0 border-primary"
+                    >
+                      <img
+                        src="assets/images/icon.svg"
+                        class="w-auto d-inline-block"
+                        alt="item_button_icon"
+                      />
+                      <span class="item_button_text">Add To Cart</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="slide" style="">
+              <div class="col px-2 mb-1">
+                <div class="card product-card">
+                  <div class="fav-label">
+                    <a
+                      href="javascript:void(0);"
+                      class="btn btn-light p-2 m-0 rounded-circle"
+                    >
+                      <img
+                        src="assets/images/heart@2x.png"
+                        width="18"
+                        alt="menu"
+                        class="w-auto d-inline-block"
+                      />
+                    </a>
+                  </div>
+                  <div class="offer-label">50%</div>
+                  <img
+                    src="assets/images/lap.png"
+                    alt="menu"
+                    class="card-img-top p-3"
+                  />
+                  <div class="card-body p-lg-4 text-center">
+                    <div class="small-ratings justify-content-center">
+                      <i class="fa fa-star rating-color"></i>
+                      <i class="fa fa-star rating-color"></i>
+                      <i class="fa fa-star rating-color"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                    </div>
+                    <h5 class="card-title">
+                      Electric Multi-Functional Tea &amp; Coffee Pot
+                    </h5>
+                    <div class="prices">
+                      <span class="price"> AED499</span>
+                      <span class="price-old">AED600</span>
+                    </div>
+                    <button
+                      class="btn btn-light flex-grow-1 bg-white text-primary rounded-0 border-primary"
+                    >
+                      <img
+                        src="assets/images/icon.svg"
+                        class="w-auto d-inline-block"
+                        alt="item_button_icon"
+                      />
+                      <span class="item_button_text">Add To Cart</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="slide" style="">
+              <div class="col px-2 mb-1">
+                <div class="card product-card">
+                  <div class="fav-label">
+                    <a
+                      href="javascript:void(0);"
+                      class="btn btn-light p-2 m-0 rounded-circle"
+                    >
+                      <img
+                        src="assets/images/heart@2x.png"
+                        width="18"
+                        alt="menu"
+                        class="w-auto d-inline-block"
+                      />
+                    </a>
+                  </div>
+                  <div class="offer-label">50%</div>
+                  <img
+                    src="assets/images/lap.png"
+                    alt="menu"
+                    class="card-img-top p-3"
+                  />
+                  <div class="card-body p-lg-4 text-center">
+                    <div class="small-ratings justify-content-center">
+                      <i class="fa fa-star rating-color"></i>
+                      <i class="fa fa-star rating-color"></i>
+                      <i class="fa fa-star rating-color"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                    </div>
+                    <h5 class="card-title">
+                      Electric Multi-Functional Tea &amp; Coffee Pot
+                    </h5>
+                    <div class="prices">
+                      <span class="price"> AED499</span>
+                      <span class="price-old">AED600</span>
+                    </div>
+                    <button
+                      class="btn btn-light flex-grow-1 bg-white text-primary rounded-0 border-primary"
+                    >
+                      <img
+                        src="assets/images/icon.svg"
+                        class="w-auto d-inline-block"
+                        alt="item_button_icon"
+                      />
+                      <span class="item_button_text">Add To Cart</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="slide" style="">
+              <div class="col px-2 mb-1">
+                <div class="card product-card">
+                  <div class="fav-label">
+                    <a
+                      href="javascript:void(0);"
+                      class="btn btn-light p-2 m-0 rounded-circle"
+                    >
+                      <img
+                        src="assets/images/heart@2x.png"
+                        width="18"
+                        alt="menu"
+                        class="w-auto d-inline-block"
+                      />
+                    </a>
+                  </div>
+                  <div class="offer-label">50%</div>
+                  <img
+                    src="assets/images/lap.png"
+                    alt="menu"
+                    class="card-img-top p-3"
+                  />
+                  <div class="card-body p-lg-4 text-center">
+                    <div class="small-ratings justify-content-center">
+                      <i class="fa fa-star rating-color"></i>
+                      <i class="fa fa-star rating-color"></i>
+                      <i class="fa fa-star rating-color"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                    </div>
+                    <h5 class="card-title">
+                      Electric Multi-Functional Tea &amp; Coffee Pot
+                    </h5>
+                    <div class="prices">
+                      <span class="price"> AED499</span>
+                      <span class="price-old">AED600</span>
+                    </div>
+                    <button
+                      class="btn btn-light flex-grow-1 bg-white text-primary rounded-0 border-primary"
+                    >
+                      <img
+                        src="assets/images/icon.svg"
+                        class="w-auto d-inline-block"
+                        alt="item_button_icon"
+                      />
+                      <span class="item_button_text">Add To Cart</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container-fluid px-lg-4 main_container py-5">
+      <div class="card shadow-lg w-100">
+        <div class="card-body">
+          <div
+            class="row row-cols-2 row-cols-md-3 row-cols-lg-5 justify-content-center align-items-center"
+          >
+            <div class="contact_us_item d-flex col py-2">
+              <div class="p-2">
+                <img
+                  src="assets/images/noun-faq-2718218.png"
+                  class="contact_us_item_img"
+                />
+              </div>
+              <div class="d-flex justify-content-center flex-column">
+                <p class="p-0 m-0">Inquiries & orders:</p>
+                <p class="fw-bold p-0 m-0">+971 54 444 1888</p>
+              </div>
+            </div>
+            <div class="contact_us_item d-flex col py-2">
+              <div class="p-2">
+                <img
+                  src="assets/images/noun-customer-service-4516522.png"
+                  class="contact_us_item_img"
+                />
+              </div>
+              <div class="d-flex justify-content-center flex-column">
+                <p class="p-0 m-0">Customer Services:</p>
+                <p class="fw-bold p-0 m-0">+971 50 628 8806</p>
+              </div>
+            </div>
+            <div class="contact_us_item d-flex col py-2">
+              <div class="p-2">
+                <img
+                  src="assets/images/noun-support-service-5325669.png"
+                  class="contact_us_item_img"
+                />
+              </div>
+              <div class="d-flex justify-content-center flex-column">
+                <p class="p-0 m-0">Support Services:</p>
+                <p class="fw-bold p-0 m-0">+971 50 388 8087</p>
+              </div>
+            </div>
+            <div class="contact_us_item d-flex col py-2">
+              <div class="p-2">
+                <img
+                  src="assets/images/noun-customer-complaint-2670150.png"
+                  class="contact_us_item_img"
+                />
+              </div>
+              <div class="d-flex justify-content-center flex-column">
+                <p class="p-0 m-0">Suggestions & Complaints:</p>
+                <p class="fw-bold p-0 m-0">+971 56 749 2096</p>
+              </div>
+            </div>
+            <div
+              class="col flex-grow-1 py-2 d-flex flex-column align-items-center align-items-md-start justify-content-center"
+            >
+              <div class="contact_us_item d-flex">
+                <div class="p-2">
+                  <img
+                    src="assets/images/Path 52007.png"
+                    class="contact_us_item_extra_img"
+                  />
+                </div>
+                <div class="d-flex justify-content-center flex-column">
+                  <p class="fw-bold p-0 m-0">Info@7Md.Ae</p>
+                </div>
+              </div>
+              <div class="contact_us_item d-flex">
+                <div class="p-2">
+                  <img
+                    src="assets/images/Group 16998.png"
+                    class="contact_us_item_extra_img"
+                  />
+                </div>
+                <div class="d-flex justify-content-center flex-column">
+                  <p class="fw-bold p-0 m-0">
+                    7Md Store General Trading Llc Musaffah Abu Dhabi United Arab
+                    Emirates
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="container-fluid bg-white px-5 pt-5">
+      <div class="row">
+        <div class="col-12 col-md-4 col-lg-3 pb-4 order-1 d-flex flex-column">
+          <div
+            class="collapse navbar-expand-md navbar-collapse d-flex flex-column align-items-start"
+          >
+            <h4
+              class="fw-bold"
+              data-bs-toggle="collapse"
+              data-bs-target="#contacts-links"
+              aria-controls="contacts-links"
+              aria-expanded="false"
+              aria-label="Contact"
+            >
+              Contact us
+            </h4>
+            <div class="collapse navbar-collapse" id="contacts-links">
+              <ul class="navbar-nav flex-column">
+                <li class="nav-item">
+                  <a class="nav-link text-dark" href="#">
+                    <span class="img-li"
+                      ><img src="assets/images/phone.svg"
+                    /></span>
+                    +41 - 654489</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-dark" href="#">
+                    <span class="img-li"
+                      ><img src="assets/images/message.svg"
+                    /></span>
+                    info@7md.ae</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-dark" href="#">
+                    <span class="img-li"
+                      ><img src="assets/images/location.svg"
+                    /></span>
+                    7md store general trading LLC musaffah M-45 <br />
+                    Abu Dhabi United Arab Emirates</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 col-lg-3 pb-4 order-2 d-flex flex-column">
+          <div
+            class="collapse navbar-expand-md navbar-collapse d-flex flex-column align-items-start"
+          >
+            <h4
+              class="fw-bold"
+              data-bs-toggle="collapse"
+              data-bs-target="#account-links"
+              aria-controls="account-links"
+              aria-expanded="false"
+              aria-label="Contact"
+            >
+              Account
+            </h4>
+            <div class="collapse navbar-collapse" id="account-links">
+              <ul class="navbar-nav flex-column">
+                <li class="nav-item">
+                  <a class="nav-link text-dark" href="#"> My orders</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-dark" href="#"> My Favorites</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-dark" href="#"> My profile </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-dark" href="#"> All Products </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 col-lg-3 pb-4 order-3 d-flex flex-column">
+          <div
+            class="collapse navbar-expand-md navbar-collapse d-flex flex-column align-items-start"
+          >
+            <h4
+              class="fw-bold"
+              data-bs-toggle="collapse"
+              data-bs-target="#company-links"
+              aria-controls="company-links"
+              aria-expanded="false"
+              aria-label="Contact"
+            >
+              About 7md Store
+            </h4>
+            <div class="collapse navbar-collapse" id="company-links">
+              <ul class="navbar-nav flex-column">
+                <li class="nav-item">
+                  <a class="nav-link text-dark" href="#"> About us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-dark" href="#"> Terms & Conditions</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-dark" href="#"> Privacy policy </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-dark" href="#"> Return policy </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-12 col-md-12 col-lg-3 pb-4 order-0 order-lg-4 d-flex flex-column justify-content-center align-items-center"
+        >
+          <div>
+            <img
+              src="assets/images/trans_logo@2x.png"
+              alt="Logo"
+              width="155"
+              class="my-3"
+            />
+          </div>
+          <div class="p-2">Download the app</div>
+          <div class="d-flex justify-content-center align-items-center">
+            <div class="p-2">
+              <img
+                src="assets/images/app store.png"
+                alt="Logo"
+                class="store_btn"
+              />
+            </div>
+            <div class="p-2">
+              <img
+                src="assets/images/googele play.png"
+                alt="Logo"
+                class="play_btn"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 d-flex justify-content-center align-items-center">
+          &copy; All rights reserved
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script
+    type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+  ></script>
+
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+  ></script>
+  <script>
+    $(document).ready(function () {
+      $(".slider").slick({
+        vertical: false,
+        slidesToShow: 6,
+        slidesToScroll: 1,
+        autoplay: false,
+        arrows: false,
+        dots: true,
+        responsive: [
+          {
+            breakpoint: 1200,
+            settings: {
+              slidesToShow: 5,
+              slidesToScroll: 5,
+            },
+          },
+          {
+            breakpoint: 992,
+            settings: {
+              slidesToShow: 4,
+              slidesToScroll: 4,
+            },
+          },
+          {
+            breakpoint: 768,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 2,
+            },
+          },
+        ],
+      });
+
+      $(".product-thumps").slick({
+        vertical: true,
+        slidesToShow: 5,
+        slidesToScroll: 5,
+        autoplay: false,
+        arrows: true,
+        prevArrow: '<div class="slick-prev"></div>',
+        nextArrow: '<div class="slick-next"></div>',
+        dots: false,
+        responsive: [
+          {
+            breakpoint: 767,
+            settings: {
+              vertical: false,
+              slidesToShow: 4,
+              dots: true,
+              arrows: false,
+            },
+          },
+        ],
+      });
+    });
+    $(".product-thumps .slide").click(function () {
+      $(".product-thumps .slide").removeClass("slick-current slick-active");
+      $(this).addClass("slick-current slick-active");
+      $activeSrc = $(this).find("img").attr("src");
+      // console.log($activeSrc );
+      $(".product-img").attr("src", $activeSrc);
+    });
+  </script>
+</html>

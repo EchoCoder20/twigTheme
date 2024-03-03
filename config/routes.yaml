@@ -1,0 +1,21 @@
+controllers:
+    resource:
+        path: ../src/Controller/
+        namespace: App\Controller
+    type: attribute
+
+
+# config/routes.yaml
+blog_index:
+    path:       /about
+    controller: App\Controller\RouteController::index
+    methods:    GET
+test:
+    path: ../templates/about.twig
+    contoller: App\Controller\RouteController::testpath
+    method: GET
+
+
+
+
+
